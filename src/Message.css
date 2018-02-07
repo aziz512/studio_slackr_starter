@@ -16,3 +16,15 @@
 .Message-contents {
   margin: 5px 0;
 }
+
+.authorIcon {
+  display: inline-block;
+  width:40px;
+  height:40px;
+  background-color: #3498db;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 10px;
+  color:white;
+}

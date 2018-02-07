@@ -53,7 +53,7 @@ export default class Header extends React.Component {
     }
     return (
         <header className="Header">
-          <img src={logo} className="Header-logo" alt="logo" />
+          <img src={'https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'} className="Header-logo" alt="logo" />
           SLACKR
           <span className="Header-divider"></span>
           {userStatus}

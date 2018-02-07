@@ -48,7 +48,7 @@ export default class MessageInput extends React.Component {
         <Input className="MessageInput-input" placeholder="Send Message"
           value={this.state.message} onChange={this.handleChange.bind(this)}
           autoFocus={true}/>
-        <Button type="submit" raised color="primary">
+        <Button type="submit" raised color="secondary">
           SEND
         </Button>
       </form>
